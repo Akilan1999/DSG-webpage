@@ -12,27 +12,22 @@
 
 [[main]]
   name = "People"
-  url = "https://www.macs.hw.ac.uk/~dsg/wp/?page_id=59"
+  pageRef = "users"
   weight = 10
 
 [[main]]
   name = "Collaborators"
-  url = "https://www.macs.hw.ac.uk/~dsg/wp/?page_id=130"
-  weight = 10
-
-[[main]]
-  name = "Collaborators"
-  url = "https://www.macs.hw.ac.uk/~dsg/wp/?page_id=130"
+  pageRef = "Collaborations"
   weight = 10
 
 [[main]]
   name = "Projects"
-  url = "https://www.macs.hw.ac.uk/~dsg/wp/?page_id=46"
+  pageRef = "projects"
   weight = 10  
 
 [[main]]
   name = "Publications"
-  url = "https://www.macs.hw.ac.uk/~dsg/wp/?page_id=1278"
+  pageRef = "Publications"
   weight = 10  
 
 # [[main]]
@@ -50,7 +45,7 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 10
